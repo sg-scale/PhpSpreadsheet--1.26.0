@@ -1349,23 +1349,24 @@
         },
         {
             "name": "mitoteam/jpgraph",
-            "version": "10.2.4",
+            "version": "10.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mitoteam/jpgraph.git",
-                "reference": "9ce4d106a89f120c7e220ea22205ef7956a7027b"
+                "reference": "3d42a9f427cbf2fc2683a7631d9f9e992ccc7f06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mitoteam/jpgraph/zipball/9ce4d106a89f120c7e220ea22205ef7956a7027b",
-                "reference": "9ce4d106a89f120c7e220ea22205ef7956a7027b",
+                "url": "https://api.github.com/repos/mitoteam/jpgraph/zipball/3d42a9f427cbf2fc2683a7631d9f9e992ccc7f06",
+                "reference": "3d42a9f427cbf2fc2683a7631d9f9e992ccc7f06",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5 <=8.2"
+                "php": ">=5.5"
             },
             "replace": {
-                "jpgraph/jpgraph": "4.0.2"
+                "jpgraph/jpgraph": "4.0.2",
+                "rulin132/jpgraph": "4.3.5"
             },
             "type": "library",
             "autoload": {
@@ -1379,19 +1380,27 @@
             ],
             "authors": [
                 {
-                    "name": "JpGraph team"
+                    "name": "JpGraph team",
+                    "homepage": "https://jpgraph.net",
+                    "role": "Original Library Developers"
+                },
+                {
+                    "name": "MiTo Team",
+                    "email": "info@mito-team.com",
+                    "homepage": "https://www.mito-team.com",
+                    "role": "Composer package maintenance, PHP-compatibility patches"
                 }
             ],
-            "description": "JpGraph library composer package with PHP 8.2 support",
+            "description": "JpGraph library composer package with PHP 8.5 support",
             "homepage": "https://github.com/mitoteam/jpgraph",
             "keywords": [
                 "jpgraph"
             ],
             "support": {
                 "issues": "https://github.com/mitoteam/jpgraph/issues",
-                "source": "https://github.com/mitoteam/jpgraph/tree/10.2.4"
+                "source": "https://github.com/mitoteam/jpgraph/tree/10.5.5"
             },
-            "time": "2022-09-15T05:57:43+00:00"
+            "time": "2026-10-09T07:25:02+00:00"
         },
         {
             "name": "mpdf/mpdf",
@@ -5278,6 +5287,6 @@
         "ext-zip": "*",
         "ext-zlib": "*"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
 }
